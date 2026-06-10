@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'맑은 고딕';
+    background:#fff8f0;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+button{
+    cursor:pointer;
+}
