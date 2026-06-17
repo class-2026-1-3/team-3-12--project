@@ -1,0 +1,67 @@
+header{
+    background:white;
+    padding:20px 40px;
+
+    display:flex;
+    justify-content:space-between;
+}
+
+.container{
+    text-align:center;
+    margin-top:50px;
+}
+
+.pointer{
+
+    width:0;
+    height:0;
+
+    margin:auto;
+
+    border-left:20px solid transparent;
+    border-right:20px solid transparent;
+    border-top:40px solid red;
+}
+
+#wheel{
+
+    width:400px;
+    height:400px;
+
+    border-radius:50%;
+
+    margin:20px auto;
+
+    border:10px solid #333;
+
+    transition:4s;
+
+    background:
+    conic-gradient(
+        red 0deg 45deg,
+        orange 45deg 90deg,
+        yellow 90deg 135deg,
+        green 135deg 180deg,
+        blue 180deg 225deg,
+        purple 225deg 270deg,
+        pink 270deg 315deg,
+        brown 315deg 360deg
+    );
+}
+
+button{
+
+    padding:15px 30px;
+
+    border:none;
+
+    background:#ff7b00;
+
+    color:white;
+
+    border-radius:10px;
+}
+
+#result{
+    margin-top:30px;
+}

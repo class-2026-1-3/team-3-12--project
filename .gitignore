@@ -1,1 +1,22 @@
 mysql/data/
+ 오늘뭐먹지/
+
+├── index.html
+├── login.html
+├── recommend.html
+├── map.html
+├── roulette.html
+
+├── css
+│   ├── common.css
+│   ├── index.css
+│   ├── login.css
+│   ├── recommend.css
+│   ├── map.css
+│   └── roulette.css
+
+└── js
+    ├── login.js
+    ├── recommend.js
+    ├── map.js
+    └── roulette.js
