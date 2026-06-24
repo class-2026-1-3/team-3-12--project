@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  # ① 우리가 위에서 만든 Dockerfile을 실행할 'web' 서비스
+  web:
+    build: .                 # 현재 폴더(.)에 있는 Dockerfile을 사용해 빌드해라
+    ports:
+      - "8080:3000"          # 내 컴퓨터의 8080 포트를 도커의 3000 포트와 연결
+    depends_on:
+      - db                   # 데이터베이스(db)가 먼저 켜진 다음에 서버가 켜지도록 설정
+
+  # ② 도커허브에서 이미 만들어진 걸 가져와 쓸 'db' 서비스
+  db:
+    image: mysql:8.0         # MySQL 8.0 공식 이미지를 다운로드
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mypassword  # Root 계정 비밀번호 설정
+      MYSQL_DATABASE: my_project_db    # 자동으로 생성할 데이터베이스 이름
+    ports:
+      - "3306:3306"          # DB 기본 포트 연결
