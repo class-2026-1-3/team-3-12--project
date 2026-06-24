@@ -12,27 +12,16 @@
     친구와 만나 밥먹기 전 메뉴 선정에 있어 고민만 한참하니까 효율적인 메뉴 선정을 위해 이 주제를 선정하게되었습니다.  
 
   - 프로젝트 구조 설명
-    foods
+    TEAM.PROJECT  
+    | 
+    ├── team-3-12project  
+    │   ├── sql 
+    │   ├── web_front 
+    │   ├── .gitignore  
+    │   |── docker-compose.yml  
+    │   ├── Dockerfile  
+    |   └── README.md 
 
-    ├── User
-    │   ├── id
-    │   ├── password
-    │   ├── name
-    │   └── address
-    │
-    ├── Store
-    │   ├── store_id
-    │   ├── name
-    │   ├── address
-    │   ├── score
-    │   └── comment
-    │
-    └── Menu
-        ├── menu_id
-        ├── kor
-        ├── japan
-        ├── chin
-        └── des
 
   - 주요 기능 목록
     1) 메뉴 추천 기능
