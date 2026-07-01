@@ -13,20 +13,20 @@
 
   - 프로젝트 구조 설명  
  TEAM.PROJECT   
-└── team-3-12--project      
-    ├── sql   
-    │   ├── Dockerfile    
-    │   └── mysql   
-    ├── web_front   
-    │   ├── css   
-    │   ├── html    
-    │   ├── js    
-    │   └── Dockerfile    
-    ├── .gitignore    
-    ├── docker-compose.yml    
-    ├── image-1.png   
-    ├── image.png   
-    └── README.md   
+└── team-3-12--project          
+    ├── sql       
+    │   ├── Dockerfile        
+    │   └── mysql       
+    ├── web_front       
+    │   ├── css       
+    │   ├── html        
+    │   ├── js        
+    │   └── Dockerfile        
+    ├── .gitignore        
+    ├── docker-compose.yml       
+    ├── image-1.png       
+    ├── image.png       
+    └── README.md       
 
 
   - 주요 기능 목록
